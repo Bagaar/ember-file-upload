@@ -1,5 +1,5 @@
 {
-  "name": "ember-file-upload",
+  "name": "@bagaar/ember-file-upload",
   "version": "8.4.1",
   "description": "An uploader component for Ember apps",
   "keywords": [
