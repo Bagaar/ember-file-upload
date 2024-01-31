@@ -1,3 +1,42 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## 9.0.0 (2024-01-31)
+
+
+### Features
+
+* allow dropping a folder into the dropzone ([11976aa](https://github.com/adopted-ember-addons/ember-file-upload/commit/11976aa180216b4da3cfad35e9ee5ee761614cca))
+* Allow setting a capture device for file input ([c945f97](https://github.com/adopted-ember-addons/ember-file-upload/commit/c945f976cdacf050c48c594699eab87c13658313))
+* **http-request:** add jsonapi content type ([2fca010](https://github.com/adopted-ember-addons/ember-file-upload/commit/2fca0105c353bb58a0ab907f8b4d118dcdaa9901))
+
+
+### Bug Fixes
+
+* allow uploading a File without a Queue ([#355](https://github.com/adopted-ember-addons/ember-file-upload/issues/355)) ([533c268](https://github.com/adopted-ember-addons/ember-file-upload/commit/533c26896d0cf1f4178e042e3129496dc0b728bb)), closes [#351](https://github.com/adopted-ember-addons/ember-file-upload/issues/351)
+* **deps:** allow ember-cli-htmlbars v5 or v6 ([#741](https://github.com/adopted-ember-addons/ember-file-upload/issues/741)) ([3fc938c](https://github.com/adopted-ember-addons/ember-file-upload/commit/3fc938c87b3c16aa170b13d69e6f60b7725c3868))
+* **deps:** allow ember-modifier v2 or v3 ([#585](https://github.com/adopted-ember-addons/ember-file-upload/issues/585)) ([d206c48](https://github.com/adopted-ember-addons/ember-file-upload/commit/d206c48f0523cdeb8e47f1082c27674f16c6942b))
+* **deps:** pin dependencies ([#240](https://github.com/adopted-ember-addons/ember-file-upload/issues/240)) ([24ac7a7](https://github.com/adopted-ember-addons/ember-file-upload/commit/24ac7a7e3c1553dd8488c9df4be28ebf4f4c86b5))
+* **deps:** test app should depend on released version ([faa4699](https://github.com/adopted-ember-addons/ember-file-upload/commit/faa46996e21d6d31f751aec87dd800d6c619cc98))
+* **deps:** unpin isbinaryfile ([ee7767f](https://github.com/adopted-ember-addons/ember-file-upload/commit/ee7767ffd3d40338409c9ee1823cd825ec73589b))
+* **deps:** update dependency @babel/core to v7.14.6 ([#414](https://github.com/adopted-ember-addons/ember-file-upload/issues/414)) ([1a47259](https://github.com/adopted-ember-addons/ember-file-upload/commit/1a47259b2f2393adb0fc35f9f5134b3405898e3f))
+* **deps:** update dependency @babel/core to v7.15.0 ([#492](https://github.com/adopted-ember-addons/ember-file-upload/issues/492)) ([22967b8](https://github.com/adopted-ember-addons/ember-file-upload/commit/22967b81ff078e5f206c8f6526c536e52a0730ab))
+* **deps:** update dependency @babel/core to v7.15.0 ([#511](https://github.com/adopted-ember-addons/ember-file-upload/issues/511)) ([e291f05](https://github.com/adopted-ember-addons/ember-file-upload/commit/e291f05fb35a4ceac25d4de43a0f139dfe1071b3))
+* **deps:** update dependency @babel/core to v7.15.4 ([#518](https://github.com/adopted-ember-addons/ember-file-upload/issues/518)) ([df149e1](https://github.com/adopted-ember-addons/ember-file-upload/commit/df149e163cb981d18bb9b62a3a5d615d8304827e))
+* **deps:** update dependency @babel/core to v7.15.5 ([#523](https://github.com/adopted-ember-addons/ember-file-upload/issues/523)) ([8288c64](https://github.com/adopted-ember-addons/ember-file-upload/commit/8288c64c64d3d2109a52dcbba4c532af073b5026))
+* **deps:** update dependency @ember/render-modifiers to v2.0.3 ([#647](https://github.com/adopted-ember-addons/ember-file-upload/issues/647)) ([4607058](https://github.com/adopted-ember-addons/ember-file-upload/commit/4607058362f10449dad3477dbb78e4566ba493a5))
+* **deps:** update dependency @ember/test-waiters to v3.0.1 ([#630](https://github.com/adopted-ember-addons/ember-file-upload/issues/630)) ([acf0da4](https://github.com/adopted-ember-addons/ember-file-upload/commit/acf0da4f7f268fa465feeb0b70a62499b95a434c))
+* **deps:** update dependency ember-cli-typescript to v5 ([#688](https://github.com/adopted-ember-addons/ember-file-upload/issues/688)) ([3f225a4](https://github.com/adopted-ember-addons/ember-file-upload/commit/3f225a4a4cbf8de80680ef1996a57fd1128937de))
+* **deps:** update dependency tracked-built-ins to v2.0.1 ([#648](https://github.com/adopted-ember-addons/ember-file-upload/issues/648)) ([6fafced](https://github.com/adopted-ember-addons/ember-file-upload/commit/6fafcedb43c7493067b9056af1f8b567f8833814))
+* **deps:** update embroider monorepo to v1.1.0 ([#690](https://github.com/adopted-ember-addons/ember-file-upload/issues/690)) ([1fe8604](https://github.com/adopted-ember-addons/ember-file-upload/commit/1fe86045b24f7dd3ddd8522c26543de3366af675))
+* **deps:** update embroider monorepo to v1.2.0 ([#691](https://github.com/adopted-ember-addons/ember-file-upload/issues/691)) ([884f670](https://github.com/adopted-ember-addons/ember-file-upload/commit/884f67053d1f6a4e44aa77acd7603ceecc42391d))
+* **deps:** update embroider monorepo to v1.3.0 ([#720](https://github.com/adopted-ember-addons/ember-file-upload/issues/720)) ([89933ca](https://github.com/adopted-ember-addons/ember-file-upload/commit/89933ca1f8b7067b9bd45acb591f585a65d4acfc))
+* **deps:** upgrade @ember/test-helpers to 2.8.1 ([#781](https://github.com/adopted-ember-addons/ember-file-upload/issues/781)) ([2b195e6](https://github.com/adopted-ember-addons/ember-file-upload/commit/2b195e6723e4bfadc3d300f4a30636caf20d3f63))
+* **deps:** use wildcard version for addon dependency in test-app ([8d0a8dc](https://github.com/adopted-ember-addons/ember-file-upload/commit/8d0a8dcac30e96abe02e027ba8682685b8f38ef7))
+* **ember-file-upload:** correct extension of addon-main in package files ([bbb42a5](https://github.com/adopted-ember-addons/ember-file-upload/commit/bbb42a5e1b7abe9c719d3cabc1e33ecb9688fbd3))
+* **file:** file.upload() returns a promise ([04260d3](https://github.com/adopted-ember-addons/ember-file-upload/commit/04260d308fc11f17998aee5e3d780159996232e9))
+* Remove DisableGPU from Testem ([#294](https://github.com/adopted-ember-addons/ember-file-upload/issues/294)) ([36aa056](https://github.com/adopted-ember-addons/ember-file-upload/commit/36aa05651058d3228d7948791e2df9f79068b555))
 
 ## 8.5.0 (2024-01-17)
 
