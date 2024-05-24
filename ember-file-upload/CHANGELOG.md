@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.0.1](https://github.com/adopted-ember-addons/ember-file-upload/compare/v9.0.0...v9.0.1) (2024-05-24)
+
+
+### Bug Fixes
+
+* dont report foldernames and dont throw errors when there are subdirectories ([d22da4f](https://github.com/adopted-ember-addons/ember-file-upload/commit/d22da4fab9f0544806f519c932a70fd9f660c1ed))
+
 ## 9.0.0 (2024-01-31)
 
 
