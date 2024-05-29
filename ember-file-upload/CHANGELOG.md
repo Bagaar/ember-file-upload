@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.0.3](https://github.com/adopted-ember-addons/ember-file-upload/compare/v9.0.2...v9.0.3) (2024-05-29)
+
+
+### Features
+
+* allow dropping a folder into the dropzone ([3cad399](https://github.com/adopted-ember-addons/ember-file-upload/commit/3cad399d5335082c87130d0f551bb8c7aa671162))
+
+
+### Bug Fixes
+
+* dont report foldernames and dont throw errors when there are subdirectories ([468e5bf](https://github.com/adopted-ember-addons/ember-file-upload/commit/468e5bf650672fb31af33e56e1bb93c8eaa531f6))
+* resolve and log warning when a subdirectory is dropped ([a2faaac](https://github.com/adopted-ember-addons/ember-file-upload/commit/a2faaaca971c9cd6efa35ca5a769e7b60b6b5647))
+
 ### [9.0.2](https://github.com/adopted-ember-addons/ember-file-upload/compare/v9.0.1...v9.0.2) (2024-05-24)
 
 ### [9.0.1](https://github.com/adopted-ember-addons/ember-file-upload/compare/v9.0.0...v9.0.1) (2024-05-24)
