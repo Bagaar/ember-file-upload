@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.0.4](https://github.com/adopted-ember-addons/ember-file-upload/compare/v9.0.3...v9.0.4) (2024-08-20)
+
+
+### Bug Fixes
+
+* recursively read folder entries because most browsers only return the first 100 entries ([fa3d8a1](https://github.com/adopted-ember-addons/ember-file-upload/commit/fa3d8a164856dbd69c940445d092e754ebda7cb2))
+
 ### [9.0.3](https://github.com/adopted-ember-addons/ember-file-upload/compare/v9.0.2...v9.0.3) (2024-05-29)
 
 
